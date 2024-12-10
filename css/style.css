@@ -1,0 +1,79 @@
+/*** CSS ***/
+
+/* Limpeza da formatação */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Formatações gerais */
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+
+h2{
+    color: #252525;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+}
+
+
+/* Header */
+#header{
+    background-color: cadetblue;
+    padding: 15px;
+    text-align: center;
+}
+
+#header a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 18px;
+}
+
+#header a:hover{
+    color: cadetblue;
+    background-color: white;
+}
+
+#page_title{
+    padding: 10px 0px 20px 0px;
+}
+
+
+/* Imagens */
+.img_size{
+    width: 620px;
+    border-radius: 20px;
+}
+
+
+/* Divs */
+div.img{
+    margin: auto;
+    text-align: center;
+}
+
+div.space{
+    color: white;
+    height: 20px;
+    weight:auto;
+}
+
+div.card{
+    background-color: cadetblue;
+    color: white;
+    height: auto;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
